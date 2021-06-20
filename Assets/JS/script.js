@@ -81,7 +81,7 @@ function generatePassword() {
       them all to 'password' until the length selected by the user is reached */
       for (var i = 0; i < passwordLength; i++) {
         password += allowed[Math.floor(Math.random() * allowed.length)];
-      }
+      } //I tried to make this for loop function so that I didn't have to write it out each time but it just *did not* work!
 
       return password;
     } 
